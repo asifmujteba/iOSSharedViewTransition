@@ -3,6 +3,8 @@ iOSSharedViewTransition
 
 iOS 7 based transition library for View Controllers having a Common View
 
+- Inspired by Shared View Activity Transitions introduced in Android L.
+
 ![iOSSharedViewTransition](https://raw.githubusercontent.com/asifmujteba/iOSSharedViewTransition/master/sample.gif)
 
 <h2>USAGE</h2>
