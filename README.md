@@ -9,7 +9,7 @@ iOS 7 based transition library for View Controllers having a Common View
 Very Simple 3 Step Process:
 
 - Download and include `ASFSharedViewTransition.h` and `ASFSharedViewTransition.m` in you Project.
-- In your app delegate or somewhere else in Code do `#import "ASFSharedViewTransition.h"` and add tansitions like this:
+- In your app delegate or somewhere else in code do `#import "ASFSharedViewTransition.h"` and add tansitions like this:
 ````
 [ASFSharedViewTransition addTransitionWithFromViewControllerClass:[ViewController class]
         ToViewControllerClass:[DetailViewController class]
