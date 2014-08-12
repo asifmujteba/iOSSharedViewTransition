@@ -8,7 +8,7 @@ iOS 7 based transition library for View Controllers having a Common View
 <h2>USAGE</h2>
 Very Simple 3 Step Process:
 
-- Download and include `ASFSharedViewTransition.h` and `ASFSharedViewTransition.m` in you Project.
+- Download and include `ASFSharedViewTransition.h` and `ASFSharedViewTransition.m` in your Project.
 - In your app delegate or somewhere else in code do `#import "ASFSharedViewTransition.h"` and add tansitions like this:
 ````
 [ASFSharedViewTransition addTransitionWithFromViewControllerClass:[ViewController class]
@@ -26,13 +26,13 @@ Very Simple 3 Step Process:
 
 Thats it! A Sample Demo Application has been included for Help.
 
-<h2>**Coming Soon**</h2>
+<h2>Coming Soon</h2>
 - Adding more transitions to the library
 - If you would like to request a new feature, feel free to raise as an issue.
 
-<h2>**Author**</h2>
+<h2>Author</h2>
 Asif Mujteba, asifmujteba@gmai.com
 
-<h2>**License**</h2>
+<h2>License</h2>
 ASFSharedViewTransition is available under the MIT license. See the LICENSE file for more info.
 
