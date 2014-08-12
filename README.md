@@ -26,14 +26,14 @@ Very Simple 3 Step Process:
 - (UIView *)sharedView
 ````
 
-Thats it! A Sample Demo Application has been included for Help.
+Thats it! A Sample Demo Application has been included for help.
 
 <h2>Coming Soon</h2>
 - Adding more transitions to the library
 - If you would like to request a new feature, feel free to raise as an issue.
 
 <h2>Author</h2>
-Asif Mujteba, asifmujteba@gmai.com
+Asif Mujteba, asifmujteba@gmail.com
 
 <h2>License</h2>
 ASFSharedViewTransition is available under the MIT license. See the LICENSE file for more info.
