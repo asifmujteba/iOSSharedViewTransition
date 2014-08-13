@@ -7,12 +7,21 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "DetailViewController.h"
+#import "ASFSharedViewTransition.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    // Add Transition
+    [ASFSharedViewTransition addTransitionWithFromViewControllerClass:[ViewController class]
+                                                ToViewControllerClass:[DetailViewController class]
+                                             WithNavigationController:(UINavigationController *)self.window.rootViewController
+                                                         WithDuration:0.3f];
     
     return YES;
 }

@@ -80,14 +80,28 @@
                         WithNavigationController:(UINavigationController *)aNav
                                     WithDuration:(NSTimeInterval)aDuration
 {
-    ParamsHolder *holder = [[ParamsHolder alloc] init];
-    holder.fromVCClass = aFromVCClass;
-    holder.toVCClass = aToVCClass;
-    holder.duration = aDuration;
-    holder.nav = aNav;
+    BOOL found = false;
+    for (ParamsHolder *holder in [[ASFSharedViewTransition shared] arrParamHolders]) {
+        if (holder.fromVCClass == aFromVCClass && holder.toVCClass == aToVCClass) {
+            holder.duration = aDuration;
+            holder.nav = aNav;
+            holder.nav.delegate = [ASFSharedViewTransition shared];
+            
+            found = true;
+            break;
+        }
+    }
     
-    [[[ASFSharedViewTransition shared] arrParamHolders] addObject:holder];
-    holder.nav.delegate = [ASFSharedViewTransition shared];
+    if (!found) {
+        ParamsHolder *holder = [[ParamsHolder alloc] init];
+        holder.fromVCClass = aFromVCClass;
+        holder.toVCClass = aToVCClass;
+        holder.duration = aDuration;
+        holder.nav = aNav;
+        
+        holder.nav.delegate = [ASFSharedViewTransition shared];
+        [[[ASFSharedViewTransition shared] arrParamHolders] addObject:holder];
+    }
 }
 
 #pragma mark UINavigationControllerDelegate methods

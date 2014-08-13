@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8D05D9E3-6EBE-4035-B7ED-1F9B8E9CE185</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ASFTransitionTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1C9C2C36-F632-4829-9915-1664F7C35606</key>
+		<string>https://github.com/asifmujteba/iOSSharedViewTransition.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ASFTransitionTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1C9C2C36-F632-4829-9915-1664F7C35606</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/asifmujteba/iOSSharedViewTransition.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1C9C2C36-F632-4829-9915-1664F7C35606</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1C9C2C36-F632-4829-9915-1664F7C35606</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSSharedViewTransition</string>
+		</dict>
+	</array>
+</dict>
+</plist>

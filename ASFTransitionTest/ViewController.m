@@ -22,12 +22,6 @@
 {
     [super viewDidLoad];
     
-    // Add Transition
-    [ASFSharedViewTransition addTransitionWithFromViewControllerClass:[ViewController class]
-                                                ToViewControllerClass:[DetailViewController class]
-                                             WithNavigationController:self.navigationController
-                                                         WithDuration:0.3f];
-    
 	_arrImages = [[NSMutableArray alloc] init];
     for (int i=1; i<=8; i++) {
         [_arrImages addObject:[UIImage imageNamed:[NSString stringWithFormat:@"nature%d.jpg", i]]];
