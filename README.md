@@ -28,6 +28,11 @@ Very Simple 3 Step Process:
 
 Thats it! A Sample Demo Application has been included for help.
 
+<h2>Installation</h2>
+iOSSharedViewTransition is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
+
+pod 'iOSSharedViewTransition', '~> 1.0.2'
+
 <h2>Coming Soon</h2>
 - Adding more transitions to the library
 - If you would like to request a new feature, feel free to raise as an issue.
